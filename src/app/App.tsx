@@ -10,7 +10,7 @@ export default function App() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://avatars.mds.yandex.net/i?id=cad8abcebca527b36c7c0734d0b3eaa7_l-9456457-images-thumbs&n=13)',
+          backgroundImage: 'url(https://avatars.mds.yandex.net/i?id=57b3ff89f376aac28c475395d5b4ac6a_l-5224299-images-thumbs&n=13)',
         }}
       >
         {/* Overlay for better text readability */}
@@ -57,7 +57,7 @@ export default function App() {
               ease: 'easeInOut',
             }}
           >
-            С 8 Марта! 🌸
+            С 8 Марта! 🌷
           </motion.h1>
 
           {/* Greeting Text */}
@@ -78,7 +78,7 @@ export default function App() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              Дорогая Анжела!
+              Дорогая Мамочка!
             </motion.p>
 
             <motion.p
@@ -91,7 +91,7 @@ export default function App() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 1 }}
             >
-              Поздравляю тебя с 8 марта! Желаю тебе море счастья, тепла, любви и вдохновения в каждом дне. Пусть всё у тебя с Серёжей будет хорошо — вместе вы преодолеете любые бури и насладитесь яркими моментами. Будь счастливой и любимой!
+              Огромное спасибо за всю твою любовь, заботу и тепло, которое ты даришь каждый день. Ты — мой самый надежный оплот, мудрый советчик. Ты заслуживаешь всего самого лучшего на свете. Люблю тебя сильно-сильно!
             </motion.p>
           </motion.div>
 
@@ -102,7 +102,7 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.2 }}
           >
-            {['🌷', '🌹', '💐', '🌺', '🌸'].map((emoji, index) => (
+            {['❤️', '🧡', '💛', '💚', '💙'].map((emoji, index) => (
               <motion.span
                 key={index}
                 className="text-4xl md:text-6xl"
